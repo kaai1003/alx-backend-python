@@ -2,6 +2,6 @@
 """float floor func module"""
 from math import floor
 
-def floor(n: float) -> any:
+def floor(n: float) -> int:
     """float floor function"""
-    return floor(n)
+    return int(floor(n))
