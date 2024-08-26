@@ -17,3 +17,6 @@ class TestGithubOrgClient(unittest.TestCase):
         test = GithubOrgClient(org_name)
         test.org()
         mock.called_with_once(test.ORG_URL.format(org=org_name))
+
+    def test_public_repos_url(self):
+        """public repo url test"""
